@@ -18,3 +18,5 @@ let estado= true;
 let pesos=98.5;
 let personajes={};
 let arraPersonajes=[];
+// condicionales en javascript
+// si se usa a==1 es equivalente a==true a git 
