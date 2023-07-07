@@ -49,7 +49,7 @@ console.log(nombrerProducto.toUpperCase());// muestra toda la cadena en mayuscul
 
 //trim  elimina espacios inesesarios de una cadena 
 let cadenaTrim="oscar ";
-console.log(cadenaTrim.trim()); // elimina los espacios en blanco d ela cadena 
+console.log(cadenaTrim.trim()); // elimina los espacios en blanco de la cadena al inicio y fin 
 
 
 //slice() => estrae una porcion d ela cadena 
@@ -71,6 +71,6 @@ console.log(cadenaModificadaSlice);
 // search => Include 
 
 let text = " oscar,thomas,greiz,alex,david,saray";
-if(text.toLocaleLowerCase().trim().slice(4).includes("oscar"));
+if(text.toLocaleLowerCase().trim().slice(-4).includes("oscar"));
 
-
+//
